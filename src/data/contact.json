@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Telefone",
+        "contact":"(55) 11-978187108",
+        "link":false
+    },
+    {
+        "name":"Email",
+        "contact":"maikewilliam.dev@gmail.com",
+        "link":false
+    },
+    {
+        "name":"Email",
+        "contact":"maikewilliam.dev@gmail.com",
+        "link":true
+    },
+    {
+        "name":"Whatsapp",
+        "contact":"5511978187108",
+        "link":true
+    },
+    {
+        "name":"linkedIn",
+        "contact":"https://www.linkedin.com/in/myke-william-836381244/",
+        "link":true
+    },
+    {
+        "name":"Git Hub",
+        "contact":"https://github.com/CodeWizardMyke",
+        "link":true
+    }
+]

@@ -1,0 +1,123 @@
+[    
+
+        {
+            "Skils":[
+            {
+                "name":"React",
+                "experience":"3 months"
+            },
+            {
+                "name":"Node",
+                "experience":"1 months"
+            },
+            {
+                "name":"MySQL",
+                "experience":"1 year"
+            },
+            {
+                "name":"Express",
+                "experience":"2 year"
+            },
+            {
+                "name":"JavaScript",
+                "experience":"3 years"
+            },
+            {
+                "name":"HTML",
+                "experience":"3 years"
+            },
+            {
+                "name":"CSS",
+                "experience":"3 years"
+            },
+            {
+                "name":"python",
+                "experience":"1 months"
+            },
+            {
+                "name":"Java",
+                "experience":"1 months"
+            },
+            {
+                "name":"Api Rest",
+                "experience":"2 year"
+            }
+        ]
+    },
+    {
+        "soft_skils":[
+        {
+            "name":"Teamwork",
+            "experience":"4 months"
+        },
+        {
+            "name":"Problem Solving",
+            "experience":"2 years"
+        },
+        {
+            "name":"Adaptability"
+        },
+        {
+            "name":"Creativity"
+        },
+        {
+            "name":"Conflict Resolution"
+        }
+    ]},
+    {
+        "languages":[
+        {
+            "name":"Portuguese",
+            "experience":"Native"
+        },
+        {
+            "name":"English",
+            "experience":"Intermediate"
+        }
+    ]},
+    {
+        "education":[
+        {
+            "name":"Universidade Cruzeiro do Sul",
+            "degree":"Ciencias da computação",
+            "start":"2023",
+            "end":"2027"
+        },
+        {
+            "name":"Curso Técnico Digital House",
+            "degree":"Developer JavaScript",
+            "start":"2022",
+            "end":"2023"
+        }
+    ]},
+    {
+        "experience":[
+        {
+            "name":"Digital Source",
+            "position":"Desenvolvedor",
+            "start":"2024",
+            "end":""
+        }
+    ]},
+    {
+        "certifications":[
+        {
+            "name":"Certificacion 2",
+            "description":"Certificacion de prueba",
+            "start":"2021",
+            "end":"2021"
+        }
+    ]},
+    {
+        "hobbies":[
+        {
+            "name":"Hobbie 1",
+            "description":"Hobbie de prueba"
+        },
+        {
+            "name":"Hobbie 2",
+            "description":"Hobbie de prueba"
+        }
+    ]}
+
+]

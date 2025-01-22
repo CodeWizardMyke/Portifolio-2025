@@ -1,0 +1,44 @@
+
+.course{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.course h2{
+    margin-bottom: 20px;
+}
+
+.course ul {
+    list-style: none;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course ul li{
+    margin: 5px 0;
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+    border: 1px solid #dddd;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+.course ul li:hover{
+    background-color: #ccc;
+}
+
+.course-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10px;
+}
+.course-item span{
+    margin-top: 2px;
+}

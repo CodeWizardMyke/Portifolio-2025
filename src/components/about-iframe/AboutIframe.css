@@ -1,0 +1,20 @@
+
+.content-iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.content-iframe iframe{
+    width: 95% ;
+    border-radius: 15px;
+    border: none;
+    height: 65%;
+}
+
+@media screen and (max-width:1024px) {
+    .content-iframe iframe{
+        height: 85%;
+    }
+}

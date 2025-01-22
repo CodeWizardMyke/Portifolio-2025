@@ -1,0 +1,69 @@
+.project-show{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgba(244, 244, 244, 0.8);
+    min-height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 5px;
+}
+.main-projects{
+    width: 100%;
+}
+.projects-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    list-style-type: none;
+    height: 360px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.projects-list li{
+    background-color: #ebebebdd;
+    margin: 5px 0;
+    padding: 10px;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.projects-list li:hover{
+    background-color: #ccc;
+}
+.projects-list li:hover {
+    transform: scale(1.01);
+}
+
+.bt-git-link{
+    cursor: pointer;
+    height: 75px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #363636;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    transition: all 200ms ease-in;
+}
+.bt-git-link svg{
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.bt-git-link:hover{
+    color: #ccc;
+    background-color: rgb(48, 48, 48);
+}

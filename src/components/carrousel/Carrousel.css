@@ -1,0 +1,64 @@
+
+.carrousel{
+    max-width: 850px;
+    width: 100%;
+    user-select: none;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carrousel button{
+    width: 175px;
+    height: 175px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+.carrousel button img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carrousel button:hover{
+    transform: scale(1.1);
+}
+
+.main-image{
+    position: relative;    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.main-image img{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.main-image .active{
+    display: block;
+}
+
+.main-image button{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.main-image .previus_hiden{
+    left: 0;
+}
+.main-image .nexting_hiden{
+    right: 0;
+}
+.main-image button:hover{
+    transform: scale(1);
+}

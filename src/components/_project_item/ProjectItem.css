@@ -1,0 +1,123 @@
+.mt-5{
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.pt-5{
+    padding-top:50px !important;
+}
+.box-1{
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 100px 20px ;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    min-height: 590px;
+}
+.content-txt{
+    position: relative;
+    max-width: 500px;
+}
+.content-txt h2{
+    margin-bottom: 15px;
+}
+.bt-gitLink{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    padding: 2px;
+    right: 0;
+}
+.bt-gitLink:hover{
+    color: #ccc;
+}
+
+.link-project{
+    font-size: 1.1rem;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.link-project a {
+    background-color: #ccc;
+    padding: 5px 15px;
+    margin-right: 5px;
+    color: #363636;
+    border-radius: 5px;
+}
+
+.link-project a:hover{
+    background-color: #cccc;
+    color: #000;
+}
+.movie{
+    height: 450px;
+    max-width: 850px;
+    width: 100%;
+}
+.movie iframe{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:540px) {
+    .main-image{
+        flex-grow: 1;
+        background-color: rebecapurple;
+        padding: 0 10px ;
+    }
+    .main-image img{
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .main-image{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    button.bt-prev, button.bt-next{
+        display: none;
+        background-color: rebeccapurple;
+    }
+    .main-image{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    button.bt-prev, button.bt-next{
+        height: 125px;
+        width: 125px;
+    }
+    .box-1{
+        padding: 100px 0;
+    }
+    .content-txt{
+        padding: 100px 20px 0 20px;
+        font-size: 1.1rem;
+    }
+    .mt-5{
+        margin: 400px 0 100px 0;
+    }
+}

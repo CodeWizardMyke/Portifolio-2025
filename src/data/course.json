@@ -1,0 +1,293 @@
+[
+    {
+        "teaching": "Superior Bacharel",
+        "institution": "Cruzeiro do Sul",
+        "start": "2023",
+        "end": "2027",
+        "state":"Cursando",
+        "diploma":"cruzeiro_do_sul.pdf",
+        "semesters": [
+            {
+                "title": "2023 - 2 Semestre - Ciência da Computação (BACHARELADO) - 1/A",
+                "notes": [
+                    {
+                        "name": "AVALIAÇÃO INTEGRADA DE COMPETÊNCIAS EM CIÊNCIA DA COMPUTAÇÃO I (3º Tri) 01/08/2023-20/12/2023",
+                        "score": "10"
+                    },
+                    {
+                        "name": "PROGRAMAÇÃO WEB (4º Tri) 01/11/2023-30/11/2023",
+                        "score": "10"
+                    },
+                    {
+                        "name": "TÉCNICA DE DESENVOLVIMENTO E ALGORITMOS (4º Tri) 01/10/2023-31/10/2023",
+                        "score": "7.5"
+                    },
+                    {
+                        "name": "MODELAGEM DE DADOS (3º Tri) 01/09/2023-30/09/2023",
+                        "score": "8.5"
+                    },
+                    {
+                        "name": "CIRCUITOS LÓGICOS (4º Tri) 01/11/2023-30/11/2023",
+                        "score": "9"
+                    }
+                ]
+            },
+            {
+                "title": "2024 - 1 Semestre - Ciência da Computação (BACHARELADO) - 2/A",
+                "notes": [
+                    {
+                        "name": "CÁLCULO DIFERENCIAL E INTEGRAL I (1º Tri) 01/03/2024-31/03/2024",
+                        "score": "9.5"
+                    },
+                    {
+                        "name": "ENGENHARIA DE REQUISITOS E PROCESSOS DE SOFTWARE (1º Tri) 01/03/2024-31/03/2024",
+                        "score": "10"
+                    },
+                    {
+                        "name": "ESTRUTURAS DE DADOS LINEARES (2º Tri) 01/04/2024-30/04/2024",
+                        "score": "7"
+                    },
+                    {
+                        "name": "PROJETO DE SOFTWARE (2º Tri) 01/06/2024-29/06/2024",
+                        "score": "9.5"
+                    },
+                    {
+                        "name": "PROGRAMAÇÃO AVANÇADA (0º Tri) 01/02/2024-29/06/2024",
+                        "score": "8.5"
+                    },
+                    {
+                        "name": "DESIGN WEB (0º Tri) 01/02/2024-29/06/2024",
+                        "score": "7.5"
+                    },
+                    {
+                        "name": "BANCO DE DADOS (1º Tri) 01/02/2024-29/02/2024",
+                        "score": "9.5"
+                    },
+                    {
+                        "name": "AVALIAÇÃO INTEGRADA DE COMPETÊNCIAS EM CIÊNCIA DA COMPUTAÇÃO II (1º Tri) 01/02/2024-29/06/2024",
+                        "score": "10"
+                    }
+                ]
+            },
+            {
+                "title": "2024 - 2 Semestre - Ciência da Computação (BACHARELADO) - 3/A",
+                "notes": [
+                    {
+                        "name": "CÁLCULO DIFERENCIAL E INTEGRAL II (3º Tri) 01/09/2024-30/09/2024",
+                        "score": "7"
+                    },
+                    {
+                        "name": "TÉCNICAS DE PROGRAMAÇÃO (3º Tri) 01/08/2024-30/08/2024",
+                        "score": "8"
+                    },
+                    {
+                        "name": "MATEMÁTICA DISCRETA (4º Tri) 01/10/2024-30/10/2024",
+                        "score": "8.5"
+                    },
+                    {
+                        "name": "ESTRUTURAS DE DADOS NÃO-LINEARES (4º Tri) 01/10/2024-30/10/2024",
+                        "score": "7"
+                    },
+                    {
+                        "name": "AVALIAÇÃO INTEGRADA DE COMPETÊNCIAS EM CIÊNCIA DA COMPUTAÇÃO III (3º Tri) 01/08/2024-20/12/2024",
+                        "score": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "teaching": "Curso Profissionalizante",
+        "institution": "Digital House",
+        "start": "2022",
+        "end": "2023",
+        "state":"Finalizado",
+        "diploma":"digital_house.pdf",
+
+        "semesters": [
+            {
+                "title": "Modulo 2 Curso técnico",
+                "notes": [
+                    {
+                        "name": "Introdução ao Node.JS",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 3 Metodologias de desenvolvimento",
+                "notes": [
+                    {
+                        "name": "GIT HUB",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "SCRUM",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "WIREFRAMES",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 4 Funcionamento da WEB",
+                "notes": [
+                    {
+                        "name": "Arquitetura cliente-servidor",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "HTTPS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "Express",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "HTML",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "CSS",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 5 EXPRESS",
+                "notes": [
+                    {
+                        "name": "MVC",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "EJS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "CRUD",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "Express-Validator",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 6 BANCO DE DADOS",
+                "notes": [
+                    {
+                        "name": "DIAGRAMA DE RELACIONAMENTO",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "WORKBENCH",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "BANCO DE DADOS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "GESTÃO DE DADOS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "SEQUELIZE",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 7 API",
+                "notes": [
+                    {
+                        "name": "REST",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "CONSUMO DE APIs",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "POSTMAN",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "AXIOS",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 8 JAVASCRIPT FRONT-END",
+                "notes": [
+                    {
+                        "name": "MODIFICADOR DO DOM",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "MODIFICADOR DE ESTILOS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "MODIFICADOR DO CLASSES",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "EVENTOS",
+                        "score": "Finalizado"
+                    }
+                ]
+            },
+            {
+                "title": "Modulo 9 REACT INTRODUÇÃO",
+                "notes": [
+                    {
+                        "name": "COMPONENTS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "JSX",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "PROPS",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "CICLO DE VIDA DOS COMPONENTES",
+                        "score": "Finalizado"
+                    },
+                    {
+                        "name": "HOOKS",
+                        "score": "Finalizado"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "teaching": "Curso",
+        "institution": "Vídeo em curso",
+        "start": "2022",
+        "end": "2022",
+        "state":"Finalizado",
+        "diploma":"",
+        "semesters": [
+            {
+                "title":"2022 Curso online gustavo guanabarra",
+                "notes":[
+                    {
+                        "name": "Javascript [40 Horas]",
+                        "score": "Finalizado"
+                    }
+                ]
+            }
+        ]
+    }
+]

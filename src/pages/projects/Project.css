@@ -1,0 +1,9 @@
+.project{
+    background-image: url('/public//background//defaoult.jpg');
+     background-size: 100% 50%;
+     background-position: top;
+     background-repeat: no-repeat;
+}
+.project{
+    justify-content: center;
+}

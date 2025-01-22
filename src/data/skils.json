@@ -1,0 +1,127 @@
+[
+   {
+        "id":1,
+        "name":"JavaScript",
+        "experience":"3 anos",
+        "description":"JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.",
+        "other":[
+            {
+                "name":"Node",
+                "experience":"1 anos",
+                "description":"Node.js é um ambiente de execução JavaScript server-side."
+            },
+            {
+                "name":"Express",
+                "experience":"2 anos",
+                "description":"Express é um framework para Node.js que fornece recursos mínimos para construção de servidores web."
+            },
+            {
+                "name":"Api Rest",
+                "experience":"2 anos",
+                "description":"Uma API REST é uma interface que permite que sistemas se comuniquem uns com os outros por meio do protocolo HTTP."
+            },
+            {
+                "name":"HTML",
+                "experience":"3 anos",
+                "description":"HTML é uma linguagem de marcação utilizada na construção de páginas na Web."
+            },
+            {
+                "name":"CSS",
+                "experience":"3 anos",
+                "description":"CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em outra linguagem de marcação."
+            },
+            
+            {
+                "name":"Bootstrap",
+                "experience":"1 year",
+                "description":"CSS é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em outra linguagem de marcação."
+            },
+            {
+                "name":"JQuery",
+                "experience":"1 year",
+                "description":"jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do cliente."
+            },
+            {
+                "name":"Sequelize",
+                "experience":"1 year",
+                "description":"Sequelize é um ORM para Node.js baseado em Promises, que suporta os bancos de dados PostgreSQL, MySQL, MariaDB, SQLite e MSSQL."
+            },
+            {
+                "name":"JWT",
+                "experience":"1 year",
+                "description":"JSON Web Token (JWT) é um padrão aberto (RFC 7519) que define uma maneira compacta e autocontida para transmitir informações com segurança entre as partes como um objeto JSON."
+            },
+            {
+                "name":"Bcrypt",
+                "experience":"1 year",
+                "description":"Bcrypt é uma função de hash de senha projetada por Niels Provos e David Mazières, baseada no algoritmo de criptografia Blowfish."
+            },
+            {
+                "name":"Multer",
+                "experience":"1 year",
+                "description":"Multer é um middleware node.js para manipulação multipart/form-data, que é usado principalmente para fazer upload de arquivos."
+            }
+        ]
+   },
+   {
+        "id":2,
+        "name":"MySQL",
+        "experience":"1 anos",
+        "description":"MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.",
+        "other":[
+            {
+                "name":"workbench",
+                "experience":"1 anos",
+                "description":"O MySQL Workbench é uma ferramenta visual de design de banco de dados que integra desenvolvimento, administração, design, criação e manutenção de SQL em um ambiente de desenvolvimento integrado para o sistema de gerenciamento de banco de dados MySQL."
+            },
+            {
+                "name":"DBA",
+                "experience":"1 anos",
+                "description":"Um administrador de banco de dados (DBA) é um especialista responsável por manter um banco de dados operacional, disponível, seguro e eficiente. O papel inclui a implementação, manutenção, suporte, teste e planejamento de índices de banco de dados."
+            }
+        ]
+   },
+   {
+        "id":3,
+        "name":"Python",
+        "experience":"1 mês",
+        "other":[
+            {
+                "name":"matplotlib",
+                "experience":"1 months",
+                "description":"Matplotlib é uma biblioteca de software para criação de gráficos e visualizações de dados em geral, feita para a linguagem de programação Python e sua extensão de matemática NumPy."
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Java",
+        "description":"Java é uma linguagem de programação e plataforma computacional lançada pela primeira vez pela Sun Microsystems em 1995.",
+        "experience":"1 mês",
+        "other":[]
+    },
+    {
+        "id":5,
+        "name":"React",
+        "experience":"6 mês",
+        "description":"React é uma biblioteca Javascript criada pelo Facebook. É usada para construir interfaces de usuário (UI) em páginas web.",
+        "other":[
+            {
+                "name":"React Native",
+                "experience":"1 mês",
+                "description":"React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e IOS de forma nativa."
+            },
+            {
+                "name":"Jxs",
+                "experience":"6 mês",
+                "description":"JSX é uma extensão de JavaScript criada para ser usada com a biblioteca React. Ele é uma sintaxe parecida com XML que é transformada em chamadas de funções JavaScript."
+            },
+            {
+                "name":"Hooks",
+                "experience":"6 mês",
+                "description":"Hooks são funções especiais do React que permitem que você use o estado e outros recursos do React sem escrever uma classe."
+            }
+
+        ]
+    }
+]

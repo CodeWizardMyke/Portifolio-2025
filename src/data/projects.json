@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "DH Book Store",
+        "subTitle": "E-commerce de livros desenvolvido com Node.js e Express.js, utilizando metodologias ágeis e padrões de arquitetura.",
+        "description": "O DH Book Store é um site de vendas de livros construído com Node.js e Express.js, seguindo metodologias ágeis como Scrum e utilizando o padrão MVC para controle de dados. O projeto também funciona como uma API, acessível via rotas autenticadas com tokens JWT. Ele oferece funcionalidades como cadastro de usuários (clientes e funcionários), produtos e gerenciamento de dados através de uma plataforma simples para administradores. O pagamento é integrado com a API de checkout do Mercado Pago e o envio é terceirizado. Adicionalmente, o sistema consome a API do ViaCEP para simplificar o preenchimento de endereços.",
+        "technicalDetails": "Este projeto utiliza Sequelize para gerenciamento do banco de dados, com suporte ao versionamento através do Sequelize CLI, permitindo criar, migrar e popular tabelas com os comandos `db:create`, `db:migrate` e `db:seed:all`. Para segurança e privacidade, o JWT é usado na criptografia dos dados do usuário. A aplicação também consome APIs externas, como ViaCEP, para melhorar a experiência do usuário.",
+        "images": [
+            {"url": "carrinho.png", "alt": "Tela do carrinho de compras"},
+            {"url": "home.png", "alt": "Tela inicial do site"},
+            {"url": "produto.png", "alt": "Página de detalhes do produto"}
+        ],
+        "movie":{
+            "link":"",
+            "title":"Demonstração do Projeto DH Book Store",
+            "text":"Este vídeo apresenta uma visão geral do projeto DH Book Store, um e-commerce desenvolvido com Node.js e Express.js. A demonstração inclui funcionalidades principais, como o fluxo de cadastro de usuários, gerenciamento de produtos, e o processo de finalização de compras com a integração de APIs como Mercado Pago e ViaCEP. O objetivo é proporcionar uma visão clara do funcionamento do site e de sua interface intuitiva, ideal para usuários finais e administradores."
+        },
+        "url_video_projetc":"",
+        "url_projeto": "https://bookstore-digital-society.fly.dev",
+        "url_repositorio": "https://github.com/CodeWizardMyke/booking_store_back",
+        "url_download": "https://github.com//CodeWizardMyke/booking_store_back/archive/refs/heads/master.zip"
+    }
+]
