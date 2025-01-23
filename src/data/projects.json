@@ -1,5 +1,27 @@
 [
     {
+        "id": 2,
+        "name": "Meu Bolso Online",
+        "subTitle": "Aplicação para gestão de despesas pessoais, desenvolvida com Node.js e hospedada gratuitamente no Fly.io.",
+        "description": "Meu Bolso Online é uma aplicação simples e eficiente para ajudar os usuários a gerenciar suas despesas mensais. O sistema permite o cadastro rápido, registro de despesas, e fornece uma visão abrangente dos gastos mensais, com um foco em usabilidade e acessibilidade. A hospedagem é feita no Fly.io, garantindo acesso rápido e seguro, enquanto o banco de dados PostgreSQL gerencia todas as informações de forma confiável.",
+        "technicalDetails": "O projeto utiliza tecnologias modernas como Node.js, Express.js, Sequelize ORM para gerenciamento de banco de dados, bcrypt para segurança das senhas, e jQuery para manipulação dinâmica no front-end. O design é construído com HTML5, CSS3 e Bootstrap, garantindo uma interface responsiva e amigável. O banco de dados é gerenciado pelo PostgreSQL, e o versionamento das tabelas é feito com Sequelize CLI, incluindo comandos como `db:create`, `db:migrate` e `db:seed:all` para configuração rápida e eficiente.",
+        "images": [
+            {"url": "home-footer-mbo.png", "alt": "Tela do dashboard com resumo de despesas"},
+            {"url": "home-mbo.png", "alt": "Tela de registro de novas despesas"},
+            {"url": "profile-mbo-2.png", "alt": "Tela de cadastro de novos usuários"},
+            {"url": "profile-mbo.png", "alt": "Tela de cadastro de novos usuários"}
+        ],
+        "movie": {
+            "link": "",
+            "title": "Demonstração do Projeto Meu Bolso Online",
+            "text": "Este vídeo apresenta o projeto Meu Bolso Online, uma aplicação desenvolvida com Node.js e hospedada no Fly.io. A demonstração cobre recursos principais, como cadastro de usuários, registro de despesas mensais, e a visão geral dos gastos em um dashboard intuitivo. O vídeo também destaca o uso de tecnologias modernas e a integração com o banco de dados PostgreSQL."
+        },
+        "url_video_projetc": "",
+        "url_projeto": "https://mbo-frontend-nameless-sun-8096.fly.dev",
+        "url_repositorio": "https://github.com/CodeWizardMyke/mbo-front-end.git",
+        "url_download": "https://github.com/CodeWizardMyke/mbo-front-end/archive/refs/heads/master.zip"
+    },
+    {
         "id": 1,
         "name": "DH Book Store",
         "subTitle": "E-commerce de livros desenvolvido com Node.js e Express.js, utilizando metodologias ágeis e padrões de arquitetura.",

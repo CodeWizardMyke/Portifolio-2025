@@ -3,7 +3,7 @@ import './ProjectItem.css'
 import Carrousel from '../carrousel/Carrousel';
 
 import { FaGithub } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { data, useNavigate } from 'react-router-dom';
 
     function ProjectItem({item,index}) {
         const navigate = useNavigate();
@@ -23,8 +23,8 @@ import { useNavigate } from 'react-router-dom';
         <article className={`project ${index > 0 ? "mt-5" : "pt-5"}`}  id={`project-${item.id}`} >
             <div className="box-1">
                 <div className="content-txt">
-                    <h2>TÍTULO DO  2</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum obcaecati magni minima officiis fugit ad corporis, facilis, temporibus, ab animi pariatur harum inventore libero consequatur. Laboriosam facilis mollitia expedita qui.</p>
+                    <h2>{item.name}</h2>
+                    <p>{item.description}</p>
                     <div className='link-project' >
                         <button
                             type='button'

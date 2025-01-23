@@ -39,7 +39,7 @@ function Carrousel({images}) {
           onClick={prevButton}
       >
           {
-              <img src={images.length ? `/project_img/${images[prevIndex].url}` : '' } alt="asfasfa" />
+              <img src={images.length ? `/project_img/${images[prevIndex].url}` : '' } alt={images.alt} />
           }
       </button>
 
@@ -49,7 +49,7 @@ function Carrousel({images}) {
               images.map((item,index) => (
                   <img 
                       src={`/project_img/${item.url}`}
-                      alt="imagem do produto skao" 
+                      alt={images.alt}
                       className={current === index ? "active" : ""}
                       key={`imagem_projeto-${index}`}
                   />
@@ -63,7 +63,7 @@ function Carrousel({images}) {
           onClick={nextButton}
       >
           {
-              <img src={images.length ? `/project_img/${images[nextIndex ].url}` : '' } alt="asfasfa" />
+              <img src={images.length ? `/project_img/${images[nextIndex ].url}` : '' } alt={images.alt}/>
           }
       </button>
     </div>
