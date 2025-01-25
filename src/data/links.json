@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Email",
+        "href":"mailto:maikewilliam.dev@gmail.com",
+        "value":"maikewilliam.dev@gmail.com"
+    },
+    {
+        "name":"Whatsapp",
+        "value":"55 11-978187108",
+        "href":"https://wa.me/5511978187108"
+    },
+    {
+        "name":"linkedIn",
+        "href":"https://www.linkedin.com/in/myke-william-836381244/",
+        "value":"myke-william-836381244"
+    },
+    {
+        "name":"GitHub",
+        "href":"https://github.com/CodeWizardMyke",
+        "value":"CodeWizardMyke"
+    }
+]

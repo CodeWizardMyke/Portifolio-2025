@@ -1,7 +1,12 @@
 import React from 'react'
 import "./Footer.css";
 
-import dataContact from "../../data/contact.json";
+import contacts from "../../data/contact.json";
+import links from "../../data/links.json";
+
+const navigateTo = (url) => {
+  window.open(url, '_blank', 'noopener,noreferrer')
+}
 
 function Footer() {
   return (
@@ -9,31 +14,22 @@ function Footer() {
       <div className='Footer'>
           <ul className='footer-contact'>
             {
-              dataContact.map((item,index)=>(
-                !item.link && (
-                  <li key={`footer_contact-${index}`}>
-                      <div className="list-item-f">
-                        <span className='title'>{item.name}</span>
-                        <span>{item.contact}</span>
-                      </div>
-                    </li>
-                )
-              ))
+             contacts.map( (item,index) => <li key={`ct-${index}`}> <span>{item.name}</span> <span> {item.contact} </span> </li> ) 
             }
           </ul>
          <div className='box-contact'>
           <h3>Link externos</h3>
           <ul className='contact-link'>
               {
-                dataContact.map((item,index) => (
-                  item.link && (
-                    <li key={`contact-link-${index}`}>
-                      { item.name === 'Email' && <a href={`mailto:${item.contact} `} target="_blank" >{item.name}</a> }
-                      { item.name === 'Whatsapp' && <a href={`https://wa.me/${item.contact} `} target="_blank" >{item.name}</a> }
-                      { item.name === 'Git Hub' && <a href={`${item.contact} `} target="_blank" >{item.name}</a> }
-                      { item.name === 'linkedIn' && <a href={`${item.contact} `} target="_blank" >{item.name}</a> }
-                    </li>
-                  )
+                links.map( (item,index) => (
+                  <li key={`lk-${index}`}>
+                    <button 
+                      type='button'
+                      className='bt-link'
+                      onClick={()=>
+                      navigateTo(item.href)}
+                    >{item.name}</button>
+                  </li>
                 ))
               }
             </ul>

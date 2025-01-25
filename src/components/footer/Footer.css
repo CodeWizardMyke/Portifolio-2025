@@ -64,6 +64,25 @@
     max-width: 50vh;
 }
 
+.bt-link{
+    min-width: 120px;
+    margin: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    height: 25px; 
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 200ms ease;
+}
+.bt-link:hover{
+    background-color: #ccc;
+    color: #363636;
+}
+
 footer a{
     width: 120px;
     height: 25px;
