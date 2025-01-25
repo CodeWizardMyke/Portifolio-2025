@@ -16,7 +16,7 @@ import CourseDetails from '../../components/_course/CourseDetails'
 function Home() {
   const [tecSelect, setTecSelect] = useState(null);
   const [course, setCourse] = useState(null);
-
+  const [currentSemester, setCurrentSemester] = useState(0);
 
   return (
     <>
@@ -57,11 +57,16 @@ function Home() {
       <section>
         <article className='content-def flex-wrap-reverse'>
           <div className="box-2">
-            < Course data={dataCourse} setCourse={setCourse} />
+            < Course data={dataCourse} setCourse={setCourse} setCurrentSemester={setCurrentSemester} />
           </div>
           <div className="box-2">
             {
-              course && <CourseDetails data={course} setCourse={setCourse} />
+              course && <CourseDetails
+                data={course}
+                setCourse={setCourse} 
+                currentSemester={currentSemester}
+                setCurrentSemester={setCurrentSemester}
+              />
             }
             {
               !course && (

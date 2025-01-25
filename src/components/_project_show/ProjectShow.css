@@ -25,20 +25,24 @@
     overflow-y: visible;
 }
 .projects-list li{
-    background-color: #ebebebdd;
     margin: 5px 0;
     padding: 10px;
-    min-height: 75px;
+    border: 1px solid #ccc;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
     cursor: pointer;
+    min-height: 100px;
 }
-.projects-list li:hover{
-    background-color: #ccc;
-}
+
 .projects-list li:hover {
+    background-color: #ccc;
     transform: scale(1.01);
+}
+
+.projects-list p {
+    padding: 10px;
+    text-align: center;
 }
 
 .bt-git-link{

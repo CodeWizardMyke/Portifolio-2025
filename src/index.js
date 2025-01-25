@@ -7,6 +7,7 @@ import Home from './pages/home/Home.jsx'
 import Project from './pages/projects/Project.jsx'
 import './style/index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Curriculum from './pages/curriculum/Curriculum.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,10 @@ const router = createBrowserRouter([
     element: <App />,
     children:[
       {path:'/', element:<Home/>},
-      {path:'/project', element: <Project/>}
+      {path:'/project', element: <Project/>},
+      {
+        path:'/curriculum', element: <Curriculum/>
+      }
     ]
   }
 ]);

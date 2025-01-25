@@ -17,8 +17,12 @@ function Header() {
                 <li
                   onClick={()=> navigate('/project')}
                 ><span>Projetos</span></li>
-                <li><span>Curriculo</span></li>
-                <li><span>Contato</span></li>
+                <li
+                  onClick={() => navigate('/curriculum')}
+                ><span>Curriculo</span></li>
+                <li
+                  onClick={()=> navigate('/#contact_footer')}
+                ><span>Contato</span></li>
             </ul>
         </nav>
     </header>

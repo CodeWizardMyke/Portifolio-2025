@@ -85,6 +85,7 @@
         "id":3,
         "name":"Python",
         "experience":"1 mês",
+        "description":"",
         "other":[
             {
                 "name":"matplotlib",

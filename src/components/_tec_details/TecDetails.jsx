@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
+
 import './TecDetails.css'
 import { FcPrevious } from "react-icons/fc";
-import { SiSololearn } from "react-icons/si";
 
 function TecDetails({data, setTecSelect}) {
     const [description, setDescription] = useState('');
@@ -22,21 +22,13 @@ function TecDetails({data, setTecSelect}) {
                         </li>
                     ))
                 }
+                {
+                    !data.other.length ? `${data.name} está em estudo atualmente` : ""
+                }
             </ul>
-            {
-                data.other.length >0 ? (
-                    <div className="description">
-                        <p>{description}</p>
-                    </div>
-                ):
-                (
-                    <div className="start_study">
-
-                        <h3>Carregando!!!...</h3>
-                        <SiSololearn/>
-                    </div>
-                )
-            }
+            <div className="description">
+                <p>{ data.other.length ? description : data.description }</p>
+            </div>
         </div>
     )
 }

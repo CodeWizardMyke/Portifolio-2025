@@ -10,7 +10,7 @@ const navigateTo = (url) => {
 
 function Footer() {
   return (
-    <footer>
+    <footer id='contact_footer'>
       <div className='Footer'>
           <ul className='footer-contact'>
             {
@@ -18,7 +18,7 @@ function Footer() {
             }
           </ul>
          <div className='box-contact'>
-          <h3>Link externos</h3>
+          <h3>Contato pessoal</h3>
           <ul className='contact-link'>
               {
                 links.map( (item,index) => (

@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 
 function App() {
+
+  const location = useLocation()
+
+  const hash = location.hash
+  
+  useEffect(()=>{
+      if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+      }
+  },[ location, hash])
+
 
   return (
     <div className="container">

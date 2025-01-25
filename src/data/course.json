@@ -1,5 +1,6 @@
 [
     {
+        "id":1,
         "teaching": "Superior Bacharel",
         "institution": "Cruzeiro do Sul",
         "start": "2023",
@@ -97,23 +98,14 @@
         ]
     },
     {
+        "id":2,
         "teaching": "Curso Profissionalizante",
         "institution": "Digital House",
         "start": "2022",
         "end": "2023",
         "state":"Finalizado",
         "diploma":"digital_house.pdf",
-
         "semesters": [
-            {
-                "title": "Modulo 2 Curso técnico",
-                "notes": [
-                    {
-                        "name": "Introdução ao Node.JS",
-                        "score": "Finalizado"
-                    }
-                ]
-            },
             {
                 "title": "Modulo 3 Metodologias de desenvolvimento",
                 "notes": [
@@ -272,6 +264,7 @@
         ]
     },
     {
+        "id":3,
         "teaching": "Curso",
         "institution": "Vídeo em curso",
         "start": "2022",
