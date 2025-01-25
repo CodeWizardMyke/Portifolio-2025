@@ -3,11 +3,10 @@ import './ProjectItem.css'
 import Carrousel from '../carrousel/Carrousel';
 
 import { FaGithub } from "react-icons/fa";
-import { data, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
     function ProjectItem({item,index}) {
         const navigate = useNavigate();
-
 
         const navigateTo = (url) => {
         if (url.startsWith('http')) {
@@ -20,7 +19,7 @@ import { data, useNavigate } from 'react-router-dom';
     };
 
     return (
-        <article className={`project ${index > 0 ? "mt-5" : "pt-5"}`}  id={`project-${item.id}`} >
+        <article className={`project ${index > 0 ? "mt-5" : "pt-5"}`}  id={`project_item_${item.id}`} >
             <div className="box-1">
                 <div className="content-txt">
                     <h2>{item.name}</h2>
@@ -44,7 +43,7 @@ import { data, useNavigate } from 'react-router-dom';
             <div className="box-1">
                 <div className="movie">
                     {
-                        item.movie.link && <iframe src={item.url_video_project} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        item.movie.link && <iframe src={item.url_video_project} title="YouTube video player" style={{ border: 0 }} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     }
                 </div>
                 <div className="content-txt">

@@ -10,7 +10,6 @@ function Project() {
   const location = useLocation();
   const hash = location.hash
 
-  console.log(hash)
   useEffect(()=>{
       if (hash) {
           const element = document.querySelector(hash);
@@ -24,7 +23,7 @@ function Project() {
     <section className='view'>
       {
         dataProject.map((item,index) => (
-          <ProjectItem item={item} index={index} id={`project_item_${item.id}`}  key={`project_item-id:${item.id}`}/>
+          <ProjectItem item={item} index={index}  key={`project_item_id:${item.id}`}/>
         ))
       }
     </section>
