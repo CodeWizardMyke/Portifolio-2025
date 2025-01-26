@@ -1,6 +1,6 @@
 .mt-5{
-    margin-top: 500px;
-    margin-bottom: 500px;
+    margin-top: 400px;
+    margin-bottom: 400px;
 }
 .pt-5{
     padding-top:50px !important;
@@ -87,6 +87,14 @@
     .main-image img{
         border-radius: 15px;
     }
+    .content-txt{
+        text-align: justify;
+        margin: 50px 0;
+    }
+    .content-txt p{
+        margin: 50px 0;
+    }
+
 }
 
 @media screen and (max-width: 668px) {
@@ -118,6 +126,6 @@
         font-size: 1.1rem;
     }
     .mt-5{
-        margin: 400px 0 100px 0;
+        margin: 300px 0 100px 0;
     }
 }

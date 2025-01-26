@@ -12,7 +12,7 @@
             {"url": "profile-mbo.png", "alt": "Tela de cadastro de novos usuários"}
         ],
         "movie": {
-            "link": "",
+            "link": "https://www.youtube.com/embed/a37eKxuTn3E?si=LMhIibizpX_lBHaN",
             "title": "Demonstração do Projeto Meu Bolso Online",
             "text": "Este vídeo apresenta o projeto Meu Bolso Online, uma aplicação desenvolvida com Node.js e hospedada no Fly.io. A demonstração cobre recursos principais, como cadastro de usuários, registro de despesas mensais, e a visão geral dos gastos em um dashboard intuitivo. O vídeo também destaca o uso de tecnologias modernas e a integração com o banco de dados PostgreSQL."
         },
@@ -33,7 +33,7 @@
             {"url": "produto.png", "alt": "Página de detalhes do produto"}
         ],
         "movie":{
-            "link":"",
+            "link":"https://www.youtube.com/embed/mkT1SaJmAyY?si=_jvfa2aiscrkKRsN",
             "title":"Demonstração do Projeto DH Book Store",
             "text":"Este vídeo apresenta uma visão geral do projeto DH Book Store, um e-commerce desenvolvido com Node.js e Express.js. A demonstração inclui funcionalidades principais, como o fluxo de cadastro de usuários, gerenciamento de produtos, e o processo de finalização de compras com a integração de APIs como Mercado Pago e ViaCEP. O objetivo é proporcionar uma visão clara do funcionamento do site e de sua interface intuitiva, ideal para usuários finais e administradores."
         },

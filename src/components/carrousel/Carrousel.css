@@ -48,10 +48,10 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    background-color: transparent;
-    border: none;
+    background-color: #00000000;
     outline: none;
 }
+
 .main-image .previus_hiden{
     left: 0;
 }
@@ -60,4 +60,11 @@
 }
 .main-image button:hover{
     transform: scale(1);
+}
+
+@media screen and (max-width:500px) {
+    .main-image img{
+        width: auto;
+        margin: 0 auto;
+    }
 }

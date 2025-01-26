@@ -24,7 +24,10 @@ function Home() {
         <article className='parallax bg-show-abstract'>
             <div className="content__home">
                 <div className="box-2">
-                    <div className="text-higth"><h1>Desenvolvimento Web e Mobile</h1></div>
+                    <div className="text-higth">
+                      <h1>Myke William Oliveira</h1>
+                      <h3>Desenvolvimento Web Full Stack</h3>
+                    </div>
                     <Tecnology setTecSelect={setTecSelect} />
                 </div>
                 <div className="box-2">

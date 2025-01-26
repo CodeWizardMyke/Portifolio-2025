@@ -1,14 +1,13 @@
 import React, { useState } from 'react'
 
 import './TecDetails.css'
-import { FcPrevious } from "react-icons/fc";
 
 function TecDetails({data, setTecSelect}) {
     const [description, setDescription] = useState('');
 
     return (
         <div className='tec-details'>
-            <button className='close' onClick={()=> setTecSelect(null) }><FcPrevious/> VOLTAR</button>
+            <button className='close' onClick={()=> setTecSelect(null) }>FECHAR</button>
             <div className='tec-details__header'>
                 <h2>{data.name}</h2>
                 <p>{data.description}</p>

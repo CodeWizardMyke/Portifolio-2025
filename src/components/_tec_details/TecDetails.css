@@ -64,7 +64,7 @@
     cursor: pointer;
     border: none;
     color: #f5f5f5;
-    background-color: #ea7d01;
+    background-color: #363636;
     transition: all 0.3s ease-in;
     display: flex;
     align-items: center;
@@ -74,6 +74,6 @@
     border-radius: 5px;
 }
 .close:hover{
-    background-color: #e69b45;
+    background-color: #ccc;
     color: #515151;
 }

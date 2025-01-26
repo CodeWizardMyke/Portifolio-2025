@@ -4,6 +4,7 @@ import './AboutIframe.css'
 function AboutIframe() {
   return (
     <div className='content-iframe'>
+      <img src='/apresentation/img1.png' alt="imagem-myke-william" />
     </div>
   )
 }

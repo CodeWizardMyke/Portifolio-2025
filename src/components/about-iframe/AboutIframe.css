@@ -3,18 +3,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
 }
 
-.content-iframe iframe{
-    width: 95% ;
+.content-iframe img{
     border-radius: 15px;
     border: none;
-    height: 65%;
+    height: 100%;
+    background-color: #363636;
+    border: solid 1px #ccc;
 }
 
 @media screen and (max-width:1024px) {
-    .content-iframe iframe{
-        height: 85%;
+    .content-iframe {
+        padding: 5px;
+    }
+    .content-iframe img{
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .content-iframe{
+        margin-bottom: 300px;
     }
 }
