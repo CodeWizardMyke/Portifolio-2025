@@ -19,7 +19,7 @@ import { useNavigate } from 'react-router-dom';
     };
 
     return (
-        <article className={`project `}  id={`project_item_${item.id}`} >
+        <article className={`project ${index > 0 ? 'mt-5' : ''}`}  id={`project_item_${item.id}`} >
             <div className="box-1">
                 <div className="content-txt">
                     <h2>{item.name}</h2>
