@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 400px;
+    margin: auto 0;
+    padding-bottom: 20px;
 }
 
 .content-iframe img{
@@ -19,7 +21,7 @@
         padding: 5px;
     }
     .content-iframe img{
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
         height: auto;
     }

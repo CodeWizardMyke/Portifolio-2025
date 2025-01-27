@@ -34,3 +34,9 @@
     border: 1px solid #ccc; 
     padding: 5px;
 }
+
+@media screen and (max-width: 500px ) {
+    .table-content{
+        padding: 5px;
+    }
+}
