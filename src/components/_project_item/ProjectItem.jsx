@@ -28,11 +28,6 @@ import { useNavigate } from 'react-router-dom';
                         <button
                             type='button'
                             className='bt'
-                            onClick={()=> navigateTo(item.url_projeto)}
-                        >Visitar projeto</button>
-                        <button
-                            type='button'
-                            className='bt'
                             onClick={()=> navigateTo(item.url_download)}
                         >Download do projeto</button>
                     </div>
